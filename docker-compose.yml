@@ -1,5 +1,9 @@
 version: '3'
 services:
+  bff:
+    build: ./bff
+    ports:
+      - "3000:3000"
   mf_drawer:
     build: ./mf_drawer
     ports:
@@ -8,7 +12,3 @@ services:
     build: ./mf_videos
     ports:
       - "3002:3002"
-  bff:
-    build: ./bff
-    ports:
-      - "3000:3000"
