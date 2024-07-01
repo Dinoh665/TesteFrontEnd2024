@@ -1,0 +1,19 @@
+body {
+    display: flex;
+    font-family: Arial, sans-serif;
+}
+
+#mf_drawer {
+    width: 200px;
+    border-right: 1px solid #ddd;
+    padding: 10px;
+}
+
+#mf_videos {
+    flex: 1;
+    padding: 10px;
+}
+
+.video {
+    margin-bottom: 10px;
+}

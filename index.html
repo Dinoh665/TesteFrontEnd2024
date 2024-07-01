@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Micro Frontends</title>
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+    <div id="mf_drawer">
+        <button id="showAllVideos">VÍDEOS</button>
+        <button id="showFavorites">FAVORITOS</button>
+        <div id="favoriteCount">Favoritos: 0</div>
+    </div>
+    <div id="mf_videos">
+        <input type="text" id="searchInput" placeholder="Pesquisar">
+        <button id="searchButton">🔍</button>
+        <div id="videoResults"></div>
+    </div>
+    <script src="mf_drawer/public/index.js"></script>
+    <script src="mf_videos/public/index.js"></script>
+</body>
+</html>
