@@ -1,10 +1,12 @@
-version: '3.8'
-
+version: '3'
 services:
   bff:
     build: ./bff
     ports:
       - "3000:3000"
+    depends_on:
+      - mf_drawer
+      - mf_videos
 
   mf_drawer:
     build: ./mf_drawer

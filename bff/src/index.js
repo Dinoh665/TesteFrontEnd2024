@@ -3,7 +3,7 @@ const axios = require('axios');
 const cors = require('cors');
 const app = express();
 const port = 3000;
-const apiKey = 'AIzaSyDGLDo3EIU25mIFPJgg2nP5ysw39rhZwyY';
+const apiKey = 'AIzaSyBYqx-CCXxxgp0CqRElEN_66Evg1VVLeA4';
 
 app.use(cors());
 app.use(express.json());

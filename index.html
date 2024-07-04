@@ -9,12 +9,13 @@
 <body>
     <div id="mf_drawer">
         <button id="showAllVideos">VÍDEOS</button>
-        <button id="showFavorites">FAVORITOS</button>
-        <div id="favoriteCount">Favoritos: 0</div>
+        <button id="showFavorites">FAVORITOS <div id="favoriteCount"></div></button>
     </div>
     <div id="mf_videos">
-        <input type="text" id="searchInput" placeholder="Pesquisar">
-        <button id="searchButton">🔍</button>
+        <div class="search">
+            <input type="text" id="searchInput" placeholder="Pesquisar">
+            <button id="searchButton">🔍</button>
+        </div>
         <div id="videoResults"></div>
     </div>
     <script src="mf_drawer/public/index.js"></script>
